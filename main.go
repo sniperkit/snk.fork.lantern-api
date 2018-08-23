@@ -1,9 +1,15 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
 import (
 	"flag"
-	"github.com/kardianos/service"
 	"log"
+
+	"github.com/kardianos/service"
 )
 
 var logger service.Logger

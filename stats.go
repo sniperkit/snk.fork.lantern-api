@@ -1,11 +1,17 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/SimonBackx/lantern-crawler/queries"
 	"io/ioutil"
 	"net/http"
+
+	"github.com/SimonBackx/lantern-crawler/queries"
 )
 
 // Elke 10 minuten

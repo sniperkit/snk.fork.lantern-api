@@ -1,13 +1,19 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
 import (
 	"crypto/tls"
 	"fmt"
+	"net/http"
+	"os"
+
 	"github.com/gorilla/mux"
 	"golang.org/x/crypto/acme/autocert"
 	"gopkg.in/mgo.v2"
-	"net/http"
-	"os"
 )
 
 func defaultHandler(w http.ResponseWriter, r *http.Request) {
